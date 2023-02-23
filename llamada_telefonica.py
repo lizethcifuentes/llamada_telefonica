@@ -4,17 +4,18 @@ X = int (input ("dime los minutos: "))
 #proccesing
 
 if X < 4: 
-    y = 300
+    Y = 300
 
 else:
-    y = (X* 50) + 300 - 150
+    Y = (X* 50) + 300 - 150
 
 
-if y > 999:
-        msj = " mil "
+if Y > 999:
+    msj = "mil"
 
 else:
-     msj = " pesos "
+    msj = "pesos"
+
 
 #output
-print ("los gastos totales son " + str(y) + msj)
+print ("los gastos totales son " + str(Y) + msj)
